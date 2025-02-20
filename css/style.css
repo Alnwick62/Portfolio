@@ -12,6 +12,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start; 
+  background: linear-gradient(to bottom, rgba(29, 28, 34, 0) 20%, #1D1C22 40%);
 }
 
 .text {
@@ -92,6 +93,7 @@ body {
   background-size: 60%;
   background-repeat: no-repeat;
   background-position: center;
+  font-size: 0px;
 }
 
 .infos a:nth-child(1) { background-image: url('../img/moi.png'); }
@@ -120,6 +122,7 @@ body {
   background-color: #6C5CE7;
   justify-content: center;
   padding-left: 0;
+  font-size: 12px;
 }
 
 .infos a:hover span {
@@ -131,7 +134,6 @@ body {
 }
 
 .Apropos {
-  background: linear-gradient(to bottom, rgba(29, 28, 34, 0) 20%, #1D1C22 40%);
   width: 100%;
   min-height: 400px;
   position: relative;
@@ -145,22 +147,30 @@ body {
 
 .Apropos .container {
   display: flex;
-  align-items: center;
+  flex-direction: row;
+  align-items: center; 
   max-width: 900px;
   width: 90%;
 }
 
 .Apropos img {
   width: 250px; 
-  height: auto;
   border-radius: 10px;
-  margin-right: 30px; 
+  margin-top : 200px;
+  margin-right: 50px; 
+  object-fit: cover;
+  display: block;
 }
 
 .Apropos .text {
-  flex: 1; 
+  flex: 1;
   text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
 }
+
+
 
 .Apropos p {
   font-size: 18px;
