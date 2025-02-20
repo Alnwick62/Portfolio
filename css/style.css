@@ -5,6 +5,7 @@ body {
   background-image: url('../img/header3.jpg');
   background-attachment: fixed;
   background-size: cover;
+  margin : 0;
 }
 
 .container {
