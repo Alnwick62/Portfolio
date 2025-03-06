@@ -1,3 +1,8 @@
+
+html{
+  font-family: "Poppins", sans-serif;
+}
+
 body {
   line-height: 1;
   color: #fff;
@@ -18,6 +23,13 @@ section {
   align-items: center;
   justify-content: flex-start; 
   background: linear-gradient(to bottom, rgba(29, 28, 34, 0) 20%, #1D1C22 30%);
+}
+
+.boxed{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; 
 }
 
 .text {
@@ -42,14 +54,12 @@ section {
 }
 
 .profile h1 {
-  font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   font-size: 80px;
   margin: 0; 
 }
 
 .profile h2 {
-  font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   font-size: 50px;
   margin: 0; 
@@ -57,7 +67,6 @@ section {
 }
 
 .profile h3 {
-  font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   font-size: 50px;
   margin: 0; 
@@ -150,7 +159,7 @@ section {
   text-align: left;
 }
 
-.Apropos .container {
+.Apropos .boxed {
   display: flex;
   flex-direction: row;
   align-items: center; 
@@ -174,7 +183,6 @@ section {
   flex-direction: column;
   justify-content: center; 
 }
-
 
 
 .Apropos p {
