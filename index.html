@@ -207,9 +207,56 @@
         <section id="Certifications" class="Certifications">
             <div class="container">
                 <h2>Certifications</h2>
-                <p>Texte</p>
+                <p class="subtitle">Certifications obtenues</p>
+                
+                <div class="certification-grid">
+                    <div class="certification-card">
+                        <img src="img/linkedin-icon.svg" alt="Certification 1">
+                        <h3>L'Essentiel de Java</h3>
+                        <p>LinkedIn Learning - 2024</p>
+                        <button class="voir-plus" onclick="ouvrirPlus('certif1')">Certificat</button>
+                    </div>
+                    <div class="certification-card">
+                        <img src="img/certification2.png" alt="Certification 2">
+                        <h3>Nom de la certification</h3>
+                        <p>Organisme délivreur - Année</p>
+                        <button class="voir-plus" onclick="ouvrirPlus('certif2')">Certificat</button>
+                    </div>
+                    <div class="certification-card">
+                        <img src="img/certification3.png" alt="Certification 3">
+                        <h3>Nom de la certification</h3>
+                        <p>Organisme délivreur - Année</p>
+                        <button class="voir-plus" onclick="ouvrirPlus('certif3')">Certificat</button>
+                    </div>
+                </div>
             </div>
         </section>
+        
+        <!-- Modals pour détails -->
+        <div id="certif1" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="fermerPlus('certif1')">&times;</span>
+                <h2>Nom de la certification</h2>
+                <p>Description détaillée de la certification, les compétences acquises, etc.</p>
+            </div>
+        </div>
+        
+        <div id="certif2" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="fermerPlus('certif2')">&times;</span>
+                <h2>Nom de la certification</h2>
+                <p>Description détaillée de la certification.</p>
+            </div>
+        </div>
+        
+        <div id="certif3" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="fermerPlus('certif3')">&times;</span>
+                <h2>Nom de la certification</h2>
+                <p>Description détaillée de la certification.</p>
+            </div>
+        </div>
+        
         <section id="Contact" class="Contact">
             <div class="container">
                 <h2>Contact</h2>
