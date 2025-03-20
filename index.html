@@ -257,11 +257,29 @@
             </div>
         </div>
         
-        <section id="Contact" class="Contact">
-            <div class="container">
-                <h2>Contact</h2>
-                <p>Texte</p>
+        <section class="contact-section">
+            <div class="contact-container">
+                <h2>Contactez-moi</h2>
+                <form id="contact-form" action="https://docs.google.com/forms/d/e/1FAIpQLSetdG-XPJ1SjY1vqotDCUFNc5KwgzkSh3wqxBIfQ0eT1c_jOQ/formResponse" method="POST" target="hidden_iframe" onsubmit="submitForm(event)">
+                    <label for="name">Nom :</label>
+                    <input type="text" name="entry.437168359" id="name" required>
+                
+                    <label for="email">Email :</label>
+                    <input type="email" name="entry.347381855" id="email" required>
+                
+                    <label for="message">Message :</label>
+                    <textarea name="entry.1712603180" id="message" required></textarea>
+                
+                    <button type="submit">Envoyer</button>
+                </form>
+                <iframe name="hidden_iframe" style="display: none;"></iframe>
+                <div class="social-icons">
+                    <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                </div>
             </div>
         </section>
+        
 </body>
 </html>

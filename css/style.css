@@ -322,7 +322,7 @@ section {
 }
 
 .voir-plus {
-    background: #007bff;
+    background: #6C5CE7;
     color: white;
     padding: 10px;
     border: none;
@@ -332,7 +332,7 @@ section {
 }
 
 .voir-plus:hover {
-    background: #0056b3;
+    background: #6C5CE7;
 }
 
 .modal {
@@ -476,7 +476,7 @@ section {
 }
 
 .voir-plus {
-  background: #007BFF;
+  background: #6C5CE7;
   color: 666;
   padding: 8px 15px;
   border: none;
@@ -486,7 +486,7 @@ section {
 }
 
 .voir-plus:hover {
-  background: #0056b3;
+  background: #6C5CE7;
 }
 
 /* Modals */
@@ -520,4 +520,87 @@ section {
   cursor: pointer;
 }
 
+.contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 80px 20px;
+  background: linear-gradient(to bottom, rgba(29, 28, 34, 0.8), #1D1C22);
+}
+
+.contact-container {
+  background: #222;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  width: 400px;
+  text-align: center;
+}
+
+.contact-container h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #6C5CE7;
+}
+
+.contact-container input,
+.contact-container textarea {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  background: #333;
+  color: white;
+  font-size: 16px;
+}
+
+.contact-container textarea {
+  height: 120px;
+  resize: none;
+}
+
+.contact-container button {
+  background: #6C5CE7;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 20px;
+  transition: background 0.3s ease;
+}
+
+.contact-container button:hover {
+  background: #5A4BCF;
+}
+
+/* Icônes des réseaux sociaux */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.social-icons a {
+  background: #333;
+  color: white;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 20px;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.social-icons a:hover {
+  background: #6C5CE7;
+  transform: scale(1.1);
+}
 
