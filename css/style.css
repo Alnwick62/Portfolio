@@ -3,6 +3,10 @@ html{
   font-family: "Poppins", sans-serif;
 }
 
+h2{
+ justify-self: center;
+}
+
 body {
   line-height: 1;
   color: #fff;
@@ -11,6 +15,14 @@ body {
   background-attachment: fixed;
   background-size: cover;
   margin : 0;
+}
+
+.competence_grid{
+  display : flex;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1100px;
+  justify-content: center;
 }
 
 section {
@@ -281,10 +293,15 @@ section {
 .card:nth-child(6) .card-front::before {
   background-image: url('../img/wordpress-icon.svg');
 }
+
 .card:nth-child(7) .card-front::before {
+  background-image: url('../img/symfony-icon.svg');
+}
+
+.card:nth-child(8) .card-front::before {
   background-image: url('../img/C.png');
 }
-.card:nth-child(8) .card-front::before {
+.card:nth-child(9) .card-front::before {
   background-image: url('../img/python-icon.svg');
 }
 
