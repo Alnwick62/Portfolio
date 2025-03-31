@@ -19,6 +19,5 @@ window.onclick = function(event) {
 function submitForm(event) {
     event.preventDefault(); 
     document.getElementById("contact-form").submit();
-    alert("✅ Merci pour votre message ! Nous vous répondrons bientôt.");
     document.getElementById("contact-form").reset();
 }
