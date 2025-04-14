@@ -8,6 +8,25 @@ h2{
  justify-self: center;
 }
 
+.btn-cv {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: #333;
+  color: white;
+  padding: 15px 30px; 
+  font-size: 18px; 
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-cv:hover {
+  background-color: #2980b9;
+}
+
+
 body {
   line-height: 1;
   color: #fff;
