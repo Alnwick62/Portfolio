@@ -466,9 +466,9 @@ section {
 
 .certification-card img {
   width: 100%;
-  height: 120px; /* tu peux ajuster 150px si tu veux plus grand/petit */
-  object-fit: contain; /* très important : garde les proportions sans déformer */
-  margin-bottom: 15px; /* petit espace sous l'image */
+  height: 120px; 
+  object-fit: contain; 
+  margin-bottom: 15px; 
 }
 
 .certification-card h3 {
