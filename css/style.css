@@ -489,6 +489,13 @@ section {
   background: #6C5CE7;
 }
 
+.modal-content img {
+  width: 60%; 
+  height: auto;
+  display: block;
+  margin: 20px auto; 
+}
+
 .modal {
   display: none;
   position: fixed;
