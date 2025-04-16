@@ -477,6 +477,11 @@ section {
   margin-bottom: 5px;
 }
 
+#Competence h2 a {
+  color: inherit;         
+  text-decoration: none;  
+}
+
 .certification-card p {
   font-size: 14px;
   color: #666;
